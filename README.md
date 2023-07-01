@@ -144,5 +144,5 @@
 - 하지만 멀티쓰레드 환경이므로 싱글톤 객체는 주의해서 사용 필요
 
 
-### HTML, HTTP API, CSR, SSR
+### 4. HTML, HTTP API, CSR, SSR
 
