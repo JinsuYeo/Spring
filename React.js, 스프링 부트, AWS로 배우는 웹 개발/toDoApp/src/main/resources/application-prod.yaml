@@ -1,0 +1,13 @@
+server:
+  port: 5000
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    database-platform: org.hibernate.dialect.MYSQLDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://awseb-e-77r9dmyyb2-stack-awsebrdsdatabase-wjq8wxqdku49.czymlvcvswxg.ap-northeast-2.rds.amazonaws.com:3306/tododb
+    username: admin
+    password: jinsoo97
