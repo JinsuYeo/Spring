@@ -8,6 +8,6 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://awseb-e-77r9dmyyb2-stack-awsebrdsdatabase-wjq8wxqdku49.czymlvcvswxg.ap-northeast-2.rds.amazonaws.com:3306/tododb
-    username: admin
-    password: jinsoo97
+    url: jdbc:mysql://${rds.hostname}:${rds.port}/${rds.db.name}
+    username: ${rds.username}
+    password: ${rds.password}
